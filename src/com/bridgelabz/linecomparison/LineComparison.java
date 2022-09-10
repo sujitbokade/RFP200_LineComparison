@@ -3,7 +3,7 @@ package com.bridgelabz.linecomparison;
 import java.util.Scanner;
 
 public class LineComparison {
-    public static <length2> void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println("Welcome to Line Comparison Computation Program");
         Scanner sc = new Scanner(System.in);
 
