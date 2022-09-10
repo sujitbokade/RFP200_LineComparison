@@ -3,7 +3,7 @@ package com.bridgelabz.linecomparison;
 import java.util.Scanner;
 
 public class LineComparison {
-    public static <length2> void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println("Welcome to Line Comparison Computation Program");
         Scanner sc = new Scanner(System.in);
 
@@ -18,7 +18,7 @@ public class LineComparison {
         System.out.println("Enter a Point y2");
         int y2 = sc.nextInt();
 
-        //Calculation & Display Part
+        //Calculation & Display
         double length1 = Math.sqrt((Math.pow((x2 - x1), 2)) + (Math.pow((y2 - y1), 2)));
         System.out.println("Length of First Line is " + length1);
         System.out.println();
@@ -34,7 +34,7 @@ public class LineComparison {
         System.out.println("Enter a Point b2");
         int b2 = sc.nextInt();
 
-        //Calculation & Display Part
+        //Calculation & Display
         double length2 = Math.sqrt((Math.pow((a2 - a1), 2)) + (Math.pow((b2 - b1), 2)));
         System.out.println("Length of Second Line is " + length2);
 
